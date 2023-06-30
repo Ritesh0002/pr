@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .wrapper {
+    display: flex;
+  }
+  
+  #sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #343a40;
+    color: #fff;
+    transition: all 0.3s;
+  }
+  
+  #sidebar ul.components {
+    padding: 20px;
+  }
+  
+  #sidebar ul li.card {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  #content {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .search {
+    margin-bottom: 20px;
+  }
+  
+  #addCardModal {
+    text-align: center;
+  }
+  
+  .modal-body input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .modal-footer {
+    justify-content: center;
+  }
+  
+  .modal-footer button {
+    margin: 0 5px;
+  }
+  
